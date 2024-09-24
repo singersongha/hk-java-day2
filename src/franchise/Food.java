@@ -1,6 +1,14 @@
+package franchise;
+
 // 햄버거 5600 재료로 빵이랑 패티 샐러드
 // print() 실행 시 "이 음식은 햄버거로 가격은 5600원입니다. 재료로는 빵, 패티, 샐러드가 존재합니다."
 public class Food {
+    public Food(String menu, int price, String[] materials) {
+        this.menu = menu;
+        this.price = price;
+        this.materials = materials;
+    }
+
     String menu;
     int price;
     String[] materials;
