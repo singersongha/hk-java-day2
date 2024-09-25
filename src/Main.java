@@ -62,11 +62,15 @@ public class Main {
         Food f2 = new Food("라떼", 2000, new String[]{"샷", "얼음", "물"});
 
         System.out.println(store1.addMenu(f1));
+        System.out.println("___");
+        store1.addMenu(f2);
+        System.out.println("___");
         // 총 수, 총 금액, 평균 올라가야 함
         store1.print();
         // 확인
 //        System.out.println(store.getMenuArr());
-//        System.out.println(store.removeMenu("아메리카노"));
+//        System.out.println(store1.removeMenu("아메리카노"));
+//        store1.print();
 
         }
     }
